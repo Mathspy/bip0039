@@ -10,5 +10,8 @@
     "bip0039"
   ],
   "author": "Mathspy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
