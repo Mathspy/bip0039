@@ -4,7 +4,8 @@
   "description": "CLI for generating BIP0039 pass phrases out of numbers",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest",
+    "live": "npx jest --watch"
   },
   "keywords": [
     "bip0039"
