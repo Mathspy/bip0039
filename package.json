@@ -1,18 +1,26 @@
 {
-  "name": "bip0039-gen",
+  "name": "bip39",
   "version": "1.0.0",
   "description": "CLI for generating BIP0039 pass phrases out of numbers",
   "main": "index.js",
   "scripts": {
     "test": "npx jest",
-    "live": "npx jest --watch"
+    "live": "npx jest --watch",
+    "bip39": "bip39"
   },
   "keywords": [
     "bip0039"
   ],
   "author": "Mathspy",
   "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "yargs": "^10.0.3"
+  },
   "devDependencies": {
     "jest": "^21.2.1"
+  },
+  "bin": {
+    "bip39": "./bin/bip39.js"
   }
 }
