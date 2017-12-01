@@ -1,7 +1,7 @@
 const map39 = require("./map39")
 
 function to39(num) {
-	return split11s(num.toString(2)).map(word => map39[parseInt(word, 2)]).reduce((sentence, word) => word + " " + sentence, "").trim();
+	return split11s(num.toString(2)).map(word => map39.to[parseInt(word, 2)]).reduce((sentence, word) => word + " " + sentence, "").trim();
 }
 
 function split11s(string) {
