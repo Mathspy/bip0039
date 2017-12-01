@@ -1,6 +1,6 @@
 {
   "name": "bip0039",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "CLI for generating BIP0039 pass phrases out of numbers",
   "main": "index.js",
   "scripts": {
